@@ -24,6 +24,14 @@
         android:layout_marginBottom="86dp"
         android:text="@string/button"
         app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="@+id/textView" />
+        app:layout_constraintEnd_toEndOf="@+id/textView"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2nd Button"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="220dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>/
+
